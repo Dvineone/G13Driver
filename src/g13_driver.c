@@ -6,7 +6,7 @@
  * Version Information
  * */
 #define DRIVER_VERSION ""
-#define DRIVER_AUTHOR "Michael Eaton"
+#define DRIVER_AUTHOR "Dvineone"
 #define DRIVER_DEC "USB G13 Gamepad Driver"
 
 MODULE_AUTHOR(DRIVER_AUTHOR);
