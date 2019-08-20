@@ -40,7 +40,7 @@ struct g13_drvdata {
 // [7]                Joystick Buttons
 static __u8 g13_fixed_rdesc[] = {
   0x05, 0x01,        // Global - Usage Page (Generic Desktop Ctrls)
-  0x09, 0x07,        // Local - Usage (Keyboard)
+  0x09, 0x07,        // Local - Usage (Keypad)
   0xA1, 0x01,        // Main - Collection (Application)
   //0x15, 0x00,        //   Logical Minimum (0)
   //0x26, 0x01, 0x00, //   Logical Maximum (255) 
@@ -50,7 +50,7 @@ static __u8 g13_fixed_rdesc[] = {
    * We are not using it so we pad the byte.
    * */
   0x75, 0x08,        //   Report Size (8)
-  0x95, 0x01,        //   Report Count (2)
+  0x95, 0x01,        //   Report Count (1)
   0x81, 0x01,        //   Input (Data,Var,Abs,No Wrap,Linear,Preferred State,No Null Position)
 
   /* JoyStick Usage
