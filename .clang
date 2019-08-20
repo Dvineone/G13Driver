@@ -1,0 +1,5 @@
+-I/usr/include/
+-I/usr/local/include/
+-I/usr/src/linux-headers-4.15.0-55/include
+-std=c11
+
